@@ -24,7 +24,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene()
+        
+        let tb = TreeBuilder()
+        let treeGeom = tb.buildTreeGeometry()
+        let treeNode = SCNNode(geometry: treeGeom)
+        treeNode.simdPosition = simd_make_float3(3,0,0)
+        scene.rootNode.addChildNode(treeNode)
+        
+        let light = SCNLight()
+        light.type = .omni
+        light.color = UIColor.white
+        let lightNode = SCNNode()
+        lightNode.light = light
+        lightNode.simdPosition = simd_make_float3(2,2,0)
+        scene.rootNode.addChildNode(lightNode)
         
         // Set the scene to the view
         sceneView.scene = scene

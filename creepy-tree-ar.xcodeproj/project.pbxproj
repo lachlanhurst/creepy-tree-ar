@@ -13,6 +13,9 @@
 		7347CC472338C25200CDD6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7347CC452338C25200CDD6DC /* Main.storyboard */; };
 		7347CC492338C25500CDD6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7347CC482338C25500CDD6DC /* Assets.xcassets */; };
 		7347CC4C2338C25500CDD6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7347CC4A2338C25500CDD6DC /* LaunchScreen.storyboard */; };
+		7347CC542338C35C00CDD6DC /* ProcTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7347CC532338C35C00CDD6DC /* ProcTree.swift */; };
+		7347CC562338C75A00CDD6DC /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7347CC552338C75A00CDD6DC /* Geometry.swift */; };
+		7347CC582338D3AC00CDD6DC /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7347CC572338D3AC00CDD6DC /* TreeBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7347CC482338C25500CDD6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7347CC4B2338C25500CDD6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7347CC4D2338C25500CDD6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7347CC532338C35C00CDD6DC /* ProcTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcTree.swift; sourceTree = "<group>"; };
+		7347CC552338C75A00CDD6DC /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		7347CC572338D3AC00CDD6DC /* TreeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				7347CC482338C25500CDD6DC /* Assets.xcassets */,
 				7347CC4A2338C25500CDD6DC /* LaunchScreen.storyboard */,
 				7347CC4D2338C25500CDD6DC /* Info.plist */,
+				7347CC532338C35C00CDD6DC /* ProcTree.swift */,
+				7347CC552338C75A00CDD6DC /* Geometry.swift */,
+				7347CC572338D3AC00CDD6DC /* TreeBuilder.swift */,
 			);
 			path = "creepy-tree-ar";
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7347CC442338C25200CDD6DC /* ViewController.swift in Sources */,
+				7347CC562338C75A00CDD6DC /* Geometry.swift in Sources */,
+				7347CC582338D3AC00CDD6DC /* TreeBuilder.swift in Sources */,
 				7347CC402338C25200CDD6DC /* AppDelegate.swift in Sources */,
+				7347CC542338C35C00CDD6DC /* ProcTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
